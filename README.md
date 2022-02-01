@@ -5,6 +5,8 @@ application up and running.
 
 Things you may want to cover:
 
+This project is based on [Getting Started with Rails](https://guides.rubyonrails.org/v4.2/getting_started.html)
+
 Ruby version
 
 - Ruby version 2.3.5p376
