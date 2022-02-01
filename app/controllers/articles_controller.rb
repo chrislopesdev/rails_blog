@@ -1,4 +1,7 @@
 class ArticlesController < ApplicationController
+
+  http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
+  
   # CRUD order: index, show, new, edit, create, update and destroy.
   def index
     @articles = Article.all
